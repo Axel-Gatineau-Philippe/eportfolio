@@ -57,7 +57,7 @@
         }
     },
     "symfony/asset": {
-        "version": "v4.2.1"
+        "version": "v4.2.2"
     },
     "symfony/cache": {
         "version": "v4.2.1"
