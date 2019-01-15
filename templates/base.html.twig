@@ -3,16 +3,20 @@
     <head>
         <meta charset="UTF-8">
         <title>{% block title %}{% endblock %}</title>
+        <meta name="keywords" content="axel gatineau philippe, html, css, c, c++, java, php, developpeur, Aix-en-Provence, Aix en Provence, miage, dut informatique"/>
+        <meta name="description" content="Je suis Axel Gatineau Philippe. Bienvenue sur mon ePortfolio."/>
+        <meta name="author" content="Axel Gatineau Philippe"/>
+        <meta name="Publisher" content="Axel Gatineau Philippe"/>
+        <meta name="robots" content="index, follow"/>
         {% block stylesheets %} <link rel="stylesheet" href="/build/app.css">{% endblock %}
     </head>
-    <body>
+    <body >
         {% block body %}{% endblock %}
         {% block javascripts %}
             <script src="/build/app.js"></script>
             <script src="/build/runtime.js"></script>
+
         {% endblock %}
     </body>
-    <footer>
-    
-    </footer>
+    <footer>Copyright © 2018 - Axel GATINEAU PHILIPPE</footer>
 </html>
